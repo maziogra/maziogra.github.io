@@ -225,3 +225,67 @@ nav.scrolled > ul > li > a:hover {
 	color: red;
 	transition: all 0.2s linear;
 }
+
+@media screen and (max-width: 600px) {	
+	#home {
+		max-width: 100vw;
+	}
+
+	.logo > a {
+		font-size: 3rem;
+		padding: 0;
+		margin: 0;
+	}
+	
+	#home > h1 {
+		font-size: 3rem;
+	}
+
+	#home > h1:hover {
+		font-size: 3.2rem;
+	}
+
+	nav {
+		background-color: rgb(255, 255, 255, 0.05);
+		width: 100vw;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	nav > ul {
+		display: none;
+	}
+
+	#about {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-around;
+		align-items: center;
+	}
+
+	#about > p {
+		width: 250px;
+		font-size: 1rem;
+		margin: 0;
+	}
+	
+	#about > div {
+		width: 200px;
+		height: 200px;
+		margin: 0;
+	}
+
+	.timeline-component-bg {
+		width: 100px;
+		height: 250px;
+	}
+
+	.timeline-component-bg > h1 {
+		font-size: 1.6rem;
+	}
+
+	.timeline-component-bg > p {
+		font-size: 1rem;
+	}
+}
