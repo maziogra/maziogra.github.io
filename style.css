@@ -232,17 +232,17 @@ nav.scrolled > ul > li > a:hover {
 	}
 
 	.logo > a {
-		font-size: 3rem;
+		font-size: 2.2rem;
 		padding: 0;
 		margin: 0;
 	}
 	
 	#home > h1 {
-		font-size: 3rem;
+		font-size: 2.2rem;
 	}
 
 	#home > h1:hover {
-		font-size: 3.2rem;
+		font-size: 2.4rem;
 	}
 
 	nav {
@@ -277,12 +277,12 @@ nav.scrolled > ul > li > a:hover {
 	}
 
 	.timeline-component-bg {
-		width: 100px;
-		height: 250px;
+		width: 120px;
+		height: 350px;
 	}
 
 	.timeline-component-bg > h1 {
-		font-size: 1.6rem;
+		font-size: 1.4rem;
 	}
 
 	.timeline-component-bg > p {
