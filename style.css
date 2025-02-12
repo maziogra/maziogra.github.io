@@ -43,8 +43,7 @@ nav {
 }
 
 #links-container,
-#home-container,
-#info-container,
+#about-container,
 #technologies-container,
 #projects-container {
     background-color: rgba(255, 255, 255, 0.1);
@@ -59,13 +58,18 @@ nav {
     align-items: center;
 }
 
-#home-container {
+#about-container {
     color: white;
     font-size: 1.5em;
+    font-family: "Courier New", monospace;
+}
+
+#about-container p {
+    text-align: center
 }
 
 #links-container h2,
-#info-container h2,
+#about-container h2,
 #technologies-container h2,
 #projects-container h2 {
     color: white;
@@ -80,17 +84,17 @@ nav {
     padding: 15px;
     margin: 10px 0;
     transition: transform 0.3s, box-shadow 0.3s;
+    color: yellow;
+    cursor: pointer;
 }
 
 .card:hover {
     transform: translateY(-5px);
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
-
 }
 
 .card i {
     margin-right: 10px;
-    color: yellow;
 }
 
 .scrolled {
@@ -113,12 +117,13 @@ a {
     margin: 5px 0;
 }
 
-#footer {
-    color: white
+footer {
+    color: white;
 }
 
 @media only screen and (max-width: 1000px) {
-    #home-container {
+
+    #about-container {
         font-size: 1.2em;
     }
 }
